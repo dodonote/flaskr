@@ -3,11 +3,11 @@ Flask 文档实例，快速学习 flask 框架应用。
 
 ----------
 
-#运行
+# 运行
 
 python app.py
 
-#模块
+# 模块
 
 import os
 
@@ -18,7 +18,7 @@ from flask import Flask, request, session, g, redirect, url_for, abort, \
 
 from contextlib import closing
 
-#应用知识点
+# 应用知识点
 1.创建 sqlite 数据库
 
 E:\jetbrains\flaskr>sqlite3 flaskr.db < schema.sql
@@ -32,7 +32,7 @@ with app.open_resource('schema.sql') as f:
 @app.route('/add', methods=['POST'])
 
 
-#效果展示
+# 效果展示
 
 ![demo](pic/login.jpg)
 
